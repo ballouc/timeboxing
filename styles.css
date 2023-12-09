@@ -1,0 +1,89 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.page-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+}
+
+#logo {
+  max-width: 200px;
+  height: 20%;
+}
+
+.page-col {
+  min-width: 200px;
+  height: 700px;
+}
+
+.left-col {
+  width: 15%;
+}
+.right-col {
+  width: 30%;
+}
+
+.priority {
+  width: 96%;
+  padding: 5px 5px;
+  margin: 3px 0px;
+}
+
+#brain-dump {
+  width: 98%;
+  height: 96%;
+  padding: 2px 3px;
+  resize: none;
+}
+
+.date-field {
+  text-align: center;
+  padding: 15px;
+  height: 3%;
+}
+
+.plan-field {
+  height: 97%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.1fr 1fr 1fr;
+  height: 100%;
+}
+
+.grid-time {
+  text-align: center;
+}
+
+.grid-text {
+  resize: none;
+  width: 97%;
+  height: 15px;
+}
+
+.grid-item {
+  border: 1px solid black;
+  padding: 5px 5px;
+}
+
+#clear-all {
+  margin: 20px;
+  padding: 7.5px 10px;
+  width: 250px;
+}

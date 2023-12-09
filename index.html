@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Timebox</title>
+  </head>
+  <body>
+    <div class="page-content" id="page-form">
+      <div class="left-col page-col">
+        <img src="/images/logo.png" alt="The logo of the website." id="logo" />
+        <fieldset id="top-priorities-field">
+          <legend>Top Priorities</legend>
+          <input type="text" class="priority input-area" />
+          <input type="text" class="priority input-area" />
+          <input type="text" class="priority input-area" />
+        </fieldset>
+        <fieldset class="brain-dump-field">
+          <legend>Brain Dump</legend>
+          <textarea
+            id="brain-dump"
+            placeholder="Write down all of your thoughts here"
+            class="input-area"
+          ></textarea>
+        </fieldset>
+      </div>
+      <div class="right-col page-col">
+        <fieldset class="date-field">
+          <label for="date">Today's Date:</label>
+          <input type="date" id="date" name="date" />
+        </fieldset>
+        <fieldset class="plan-field" id="plan-field">
+          <div class="grid-container">
+            <div class="grid-item grid-time">5</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item grid-time">6</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item grid-time">7</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item grid-time">8</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item grid-time">9</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item grid-time">10</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item grid-time">11</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item grid-time">12</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item grid-time">1</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item grid-time">2</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item grid-time">3</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item grid-time">4</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item grid-time">5</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item grid-time">6</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item grid-time">7</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item grid-time">8</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item grid-time">9</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item grid-time">10</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item grid-time">11</div>
+            <div class="grid-item input-area" id="input-field"></div>
+            <div class="grid-item input-area" id="input-field"></div>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+    <button id="clear-all" onclick="clearAll()">Clear All</button>
+    <script src="script.js"></script>
+  </body>
+</html>
